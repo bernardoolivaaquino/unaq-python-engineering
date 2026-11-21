@@ -1,0 +1,33 @@
+﻿# OS & Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Binaries & Archives
+*.exe
+*.dll
+*.zip
+*.x_t
+
+# ANSYS Solver Heavy Files
+*.rst
+*.db
+*.emat
+*.esav
+*.full
+*.r00*
+*.h5
+*.msh
+*.ldhi
+*.mntr
+*.DSP
+*.rdb
+*.log
+dp0/

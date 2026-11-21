@@ -1,0 +1,14 @@
+graph TD
+    A([Inicio]) --> B[/Ingresar un número entero/];
+    B --> C{¿Es número % 2 == 0?};
+    C -- Sí --> D[/Imprimir "Es par."/];
+    C -- No --> E[/Imprimir "Es impar."/];
+    D --> F([Fin]);
+    E --> F;
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style F fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#fff4cc,stroke:#d4b400,stroke-width:2px
+    style D fill:#fff4cc,stroke:#d4b400,stroke-width:2px
+    style E fill:#fff4cc,stroke:#d4b400,stroke-width:2px
+    style C fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
